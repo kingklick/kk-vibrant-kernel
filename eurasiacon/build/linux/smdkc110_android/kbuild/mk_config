@@ -1,0 +1,12 @@
+export DISCIMAGE=$WORKING/android_eurasia_smdkc110/eurasia/OUTPUT
+export KERNELDIR=$WORKING/android_kernel_smdkc110
+export EURASIAROOT=$WORKING/android_eurasia_smdkc110/eurasia_km
+export CROSS_COMPILE=/usr/local/arm/Sourcery_G++_Lite/bin/arm-none-eabi-
+export ANDROID_DRV_DIR=$WORKING/android_eclair_univc110/vendor/samsung/aries/smdkc110/lib/module
+export ANDROID_LIB_DIR=$WORKING/android_eclair_univc110/vendor/samsung/aries/smdkc110/lib
+export ANDROID_BIN_DIR=$WORKING/android_eclair_univc110/vendor/samsung/aries/smdkc110/bin
+export ANDROID_USR_LIB_DIR=$WORKING/android_eclair_univc110/out/target/product/aries/obj/lib
+export ANDROID_HOME=$WORKING/android_eclair_univc110
+export ANDROID_ROOT=$WORKING/android_eclair_univc110
+export TARGET_PRODUCT=aries
+export EURASIAROOT=$WORKING/android_eurasia_smdkc110/eurasia_km

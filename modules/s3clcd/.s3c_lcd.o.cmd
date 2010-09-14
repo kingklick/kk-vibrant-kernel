@@ -1,0 +1,1 @@
+cmd_/home/donghee.pi/Kernel/modules/s3clcd/s3c_lcd.o := /home/donghee.pi/Kernel/../arm-2009q3/bin//arm-none-eabi-ld -EL    -r -o /home/donghee.pi/Kernel/modules/s3clcd/s3c_lcd.o /home/donghee.pi/Kernel/modules/s3clcd/s3clcd_module.o 

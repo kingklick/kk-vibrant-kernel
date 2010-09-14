@@ -1,0 +1,5 @@
+0x00000000	multipdp_rx_noti_regi	/home/donghee.pi/Kernel/modules/dpram/dpram	EXPORT_SYMBOL
+0x00000000	multipdp_buf_copy	/home/donghee.pi/Kernel/modules/dpram/dpram	EXPORT_SYMBOL
+0x00000000	multipdp_dump	/home/donghee.pi/Kernel/modules/dpram/dpram	EXPORT_SYMBOL
+0x00000000	yhexdump	/home/donghee.pi/Kernel/modules/dpram/dpram	EXPORT_SYMBOL
+0x00000000	multipdp_write	/home/donghee.pi/Kernel/modules/dpram/dpram	EXPORT_SYMBOL

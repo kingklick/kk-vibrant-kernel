@@ -1,0 +1,2 @@
+0x00000000	PVRGetBufferClassJTable	/home/donghee.pi/Kernel/modules/pvrsrvkm/pvrsrvkm	EXPORT_SYMBOL
+0x00000000	PVRGetDisplayClassJTable	/home/donghee.pi/Kernel/modules/pvrsrvkm/pvrsrvkm	EXPORT_SYMBOL
