@@ -34,8 +34,8 @@
  * It helps to keep variable names smaller, simpler
  */
 
-#define DEF_FREQUENCY_UP_THRESHOLD		(70)
-#define DEF_FREQUENCY_DOWN_THRESHOLD		(30)
+#define DEF_FREQUENCY_UP_THRESHOLD		(60)
+#define DEF_FREQUENCY_DOWN_THRESHOLD		(40)
 
 #ifdef CONFIG_CPU_S5PC110
 #define DEF_SAMPLING_FREQ_STEP  20
@@ -56,7 +56,7 @@ extern unsigned int s5pc11x_target_frq(unsigned int pred_freq, int flag);
  * All times here are in uS.
  */
 static unsigned int def_sampling_rate;
-#define MIN_SAMPLING_RATE_RATIO			(2)
+#define MIN_SAMPLING_RATE_RATIO			(1)
 /* for correct statistics, we need at least 10 ticks between each measure */
 #define MIN_STAT_SAMPLING_RATE			\
 			(MIN_SAMPLING_RATE_RATIO * jiffies_to_usecs(10))
@@ -107,7 +107,7 @@ static struct dbs_tuners dbs_tuners_ins = {
 	.down_threshold = DEF_FREQUENCY_DOWN_THRESHOLD,
 	.sampling_down_factor = DEF_SAMPLING_DOWN_FACTOR,
 	.ignore_nice = 0,
-	.freq_step = DEF_SAMPLING_FREQ_STEP,
+	.freq_step = 15,
 };
 
 static inline unsigned int get_cpu_idle_time(unsigned int cpu)
