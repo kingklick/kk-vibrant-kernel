@@ -83,8 +83,8 @@ static const unsigned int frequency_match_1GHZ[][2] = {
         {1150, 1100}, /* 0.8GHz */ /* 1200 */
         {1050, 1100}, /* 0.6GHz */ /* 1100 */
         {1000, 1100}, /* 0.4GHz */ /* 1050 */
-        { 950, 1100}, /* 0.2GHz */
-        { 950, 1000}, /* 0.1GHz */
+        { 925, 1100}, /* 0.2GHz */
+        { 925, 1000}, /* 0.1GHz */
 #else //just for dvs test
         {1000000, 1250, 1100, 0},
         {800000, 1250, 1100, 1},
@@ -107,8 +107,8 @@ const unsigned int (*frequency_match[2])[2] = {
 };
 
 /*  voltage table */
-static const unsigned int voltage_table[16] = {
-	750, 800, 850, 900, 950, 1000, 1050,
+static const unsigned int voltage_table[17] = {
+	750, 800, 850, 900, 925, 950, 1000, 1050,
 	1100, 1150, 1200, 1250, 1300, 1350,
 	1400, 1450, 1500
 };
